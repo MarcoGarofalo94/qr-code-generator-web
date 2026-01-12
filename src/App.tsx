@@ -175,7 +175,7 @@ function App() {
                     }}
                   >
                     <span className="text-2xl">{preset.icon}</span>
-                    <span className={`text-xs font-medium text-gray-700  text-${preset.color}`}>{preset.name}</span>
+                    <span className={`text-xs font-medium text-${preset.color}`}>{preset.name}</span>
                   </button>
                 ))}
               </div>
